@@ -1,0 +1,25 @@
+﻿<Window x:Class="TickNRunGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickNRunGUI"
+        mc:Ignorable="d"
+                Title="Tick'n'Run Maker" Height="600" Width="642" FontFamily="Rubik" ResizeMode="NoResize">
+    <Grid Background="#FF040404">
+        <Image Margin="178,10,10,10" Source="/photo_2025-03-07_02-24-57.jpg"/>
+        <RichTextBox x:Name="TNR" Margin="8,10,0,109" Background="#FF292828" HorizontalAlignment="Left" Width="164" FontFamily="Agency FB" Foreground="White" FontSize="18" BorderBrush="DimGray" >
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0" />
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
+        <Button Content="Вставить в буфер обмена" Click="Button_Click"  FontFamily="Arial" FontSize="10" Margin="8,0,0,78" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="164" />
+        <CheckBox x:Name="PlusP" Content="Вставлять '+' в конце " HorizontalAlignment="Left" Margin="8,0,0,57" VerticalAlignment="Bottom" FontFamily="Bodoni MT" Background="White" Foreground="White" Checked="CheckBox_Checked" FontSize="14" Width="164" />
+        <Label Content="Формат дробных чисел" HorizontalAlignment="Left" Margin="18,0,0,29" VerticalAlignment="Bottom" Foreground="White"/>
+        <RadioButton x:Name="dot" Content="Точка" HorizontalAlignment="Left" Margin="13,0,0,10" VerticalAlignment="Bottom" Foreground="White"/>
+        <RadioButton x:Name="comma" Content="Запятая" HorizontalAlignment="Left" Margin="100,0,0,10" VerticalAlignment="Bottom" Checked="RadioButton_Checked" Foreground="White"/>
+    </Grid>
+</Window>
+

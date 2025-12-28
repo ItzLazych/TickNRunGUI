@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickNRunGUI", "TickNRunGUI\TickNRunGUI.csproj", "{F98962FD-F7C2-493C-ABF2-7E4F50438EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98962FD-F7C2-493C-ABF2-7E4F50438EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98962FD-F7C2-493C-ABF2-7E4F50438EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98962FD-F7C2-493C-ABF2-7E4F50438EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98962FD-F7C2-493C-ABF2-7E4F50438EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A9A1260-FC33-43D5-872C-8F4487A79B06}
+	EndGlobalSection
+EndGlobal
